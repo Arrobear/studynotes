@@ -1,0 +1,19 @@
+//#include<stdio.h>
+//int main()
+//{
+//	//字符串：“由双引号引起的一串字符”
+//	// /0：字符串的结束标志,存在但是不计入长度
+//	//字符数组：数组是一组同类型的元素
+//	char arr[]="hello world";
+//	char arr1[] = "abc";
+//	char arr2[] = { 'a','b','c' };
+//
+//	printf("%s", arr1);//有4个元素：a,b,c,/0
+//	printf("%s", arr2);//有3个元素：a,b,c
+//
+//	//对arr1,有/0，对arr2无结束标志，打出：abc烫烫烫烫烫烫烫烫烫烫烫烫虆鰍?
+//	//strlen:求字符串长度
+//	//strlen(arr1)=3
+//	//stelen(arr2)=?(随机值)    因为没有结束符：/0
+//	return 0;
+//}
