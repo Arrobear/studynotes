@@ -1,0 +1,40 @@
+# study
+Config files for my GitHub profile.
+//#include<stdio.h>
+//int main()
+//{
+//	//常量
+////1.普通常量；
+//	
+////2.const 修饰的变量：不能被更改的变量(常属性)；
+//	
+//	//const int num = 10;
+//	//printf("%d", num);
+//	//return 0;
+//
+//	//int arr[10] = { 0 };//10个元素;
+//
+//	//int n = 10;
+//	//int arr2[n] = { 0 };//n是变量，此处错误
+//
+////3.#define 定义的标识符常量；(不可更改)
+//    // 
+////4. 枚举常量
+//	//用于可以一一列举的常量
+//
+//	//性别
+//	//enum Sex //enum 枚举关键字
+//	//{
+//	//	//这种变量未来可能的取值
+//	//	//↓枚举常量
+//	//	MALE=3,//赋初值
+//	//    FEMALE,
+//	//	SECRET
+//	//};
+//	//enum Sex s = MALE;
+//	//printf("%d\n", MALE);
+//	//printf("%d\n", FEMALE);
+//	//printf("%d\n", SECRET);
+//	//枚举变量的值从0开始向后计数（不赋初值的情况下）
+//	return 0;
+//} 
