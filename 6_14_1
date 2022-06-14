@@ -1,0 +1,32 @@
+//转义字符:转变成了其他意思
+#include<stdio.h>
+#include<string.h>
+//int main()
+//{
+//	printf("c:\test.c");
+//	return 0;
+//}
+// \t : tab
+// \n : 换行
+// ??):  ]  (三字母词)
+// \' :  '
+// \\ :  \
+// \a :  蜂鸣
+// \b :  退格
+// \f :  进纸符
+// \ddd: ddd表示1—3个八进制数字。如：\130X
+// \xdd: dd表示2个十六进制数字。  如：\x30 0
+int main()
+{
+	/*printf("%c",'\'');*/
+	int i;
+	printf("%s\n", "abc");
+	printf("%s\n", "a");
+	printf("%s\n","\"");
+    printf("\a");
+	printf("%d\n", strlen("c:\test\328\test.c"));
+	return 0;
+}
+//printf("%d",100);
+//printf("%c",'a');
+//printf("%s","abc");
