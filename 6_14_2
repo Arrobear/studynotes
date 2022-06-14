@@ -1,0 +1,38 @@
+//1．编写一个程序，判断一个数是否为水仙花数
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int x,i,j,k;
+scanf("%d",&x);
+i = x/ 100;
+j = (x - (i * 100)) / 10;
+k = x % 10;
+if (x == i * i * i + j * j * j + k * k * k)
+    printf("T");
+else
+        printf("F");
+}
+
+//2．编写一个程序，用do-while语句求小于数m的所有水仙花数。
+#include<stdio.h>
+int main()
+{
+    int m;
+    printf("请输入范围m：");
+    scanf("%d",&m);
+	int x = 100;
+	do
+	{
+		int a, b, c;
+		a = x % 10;     //个位
+		b = x / 10 % 10;//十位
+		c = x / 100;    //百位
+		if (a * a * a + b * b * b + c * c * c == x)
+		{
+			printf("%d\n", x);
+		}
+		x++;
+	} while (x < m);
+	return 0;
+}
