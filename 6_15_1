@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+//选择语句
+//int main()
+//{
+//	int input = 0;
+//	printf("是否?（0,1）\n");
+//	scanf("%d",&input);
+//	if (input == 1)
+//		printf("cool");
+//	else
+//		printf("shit");
+//	return 0;
+//}
+//循环语句
+//int main()
+//{
+//	int line = 0;
+//	while (line < 100)
+//	{
+//		printf("快去学习!!!   %d\n",line);
+//		line++;
+//	}
+//	if (line == 100)
+//		printf("good job!!");
+//	return 0;
+//}
