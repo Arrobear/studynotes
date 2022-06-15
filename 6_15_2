@@ -1,0 +1,48 @@
+1．	编写一个程序，输入三个整数a，b，c，判断这些值能否作为一个三角形的三条边长，如果能再判断这个三角形是否是直角三角形。
+1）	把调试通过后的程序粘贴在下面；
+#include<stdio.h>
+int main()
+{
+	float a, b, c;
+	scanf("%f%f%f", &a, &b, &c);
+	if (a + b > c && a + c > b && b + c > a)
+	{
+		if (a * a + b * b == c * c || a * a + c * c == b * b || b * b + c * c == a * a)
+			printf("是直角三角形！\n");
+		else
+			printf("不是直角三角形！\n");
+	}
+	else
+		printf("不能构成三角形！\n");
+	return 0;
+}
+
+
+2．编写一个程序，使用switch语句将百分制分数转换成对应的优（90－100）、良（80－89）、中（70－79）、及格（60－69）、不及格（60以下）。
+1）把调试通过后的程序粘贴在下面：
+#include<stdio.h>
+int main()
+{
+	int a;
+	printf("请输入百分制的成绩：\n");
+	scanf("%d", &a);
+	if (a < 0 || a>100)
+	{
+		printf("error");
+		return 0;
+	}
+	switch ((int)a/10)
+	{
+	case 0:
+	case 1:
+	case 2:
+	case 3:
+	case 4:
+	case 5:printf("不及格\n"); break;
+	case 6:printf("及格\n"); break;
+	case 7:printf("中\n"); break;
+	case 8:printf("良\n"); break;
+	case 9:printf("优\n"); break;
+	case 10:printf("优\n");
+	}
+}
