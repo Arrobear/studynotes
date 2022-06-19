@@ -1,0 +1,61 @@
+#include<stdio.h>
+ #define N 100
+ int cope()
+ {
+ int a[]={6,5,8,7,5,6,4,3};
+ static int b[N];
+ int n=8;
+ int *pa,*pb,*pc;
+ for(pa=a,pb=b;pa-a<n;pa++)
+ {
+     *pb=*pa;      /*b[i]=a[i]*/
+     for(pc=b;*pc!=*pb;pc++);
+     if(pc==pb)
+        pb++;
+ }
+ printf("已知数组中的数据有：");
+ for(pa=a;pa-a<n;pa++)
+    printf("%5d",*pa);
+ printf("\n\n");
+ printf("复制到新数组数据有：");
+ for(pc=b;pc<pb;pc++)
+    printf("%5d",*pc);
+ printf("\n");
+}
+
+
+int sor()
+{
+     int a[]={6,5,8,7,5,6,4,3};
+ static int b[N];
+ int c[6];
+ int n=8,j,i,x;
+ int *pa,*pb,*pc,*pd;
+ for(pa=a,pb=b;pa-a<n;pa++)
+ {
+     *pb=*pa;      /*b[i]=a[i]*/
+     for(pc=b;*pc!=*pb;pc++);
+     if(pc==pb)
+        pb++;
+ }
+ printf("\n对数组进行排序后为：");
+for(i=0;i<5;i++)
+{
+    for(j=0;j<5-i;j++)
+        if(b[j]>b[j+1])
+    {
+        x=b[j];
+        b[j]=b[j+1];
+        b[j+1]=x;
+    }
+}
+for(i=0;i<6;i++)
+ printf("%4d",b[i]);
+ printf("\n");
+}
+
+int main()
+{
+cope();
+sor();
+}
