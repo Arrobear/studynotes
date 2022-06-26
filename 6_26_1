@@ -1,0 +1,95 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+//int main()
+//{
+//	int a = 11;
+//	int i = 0;
+//	if (a % 2)
+//		printf("为奇数");
+//	else
+//		printf("不为奇数");
+//	for (i = 0; i < 100; i+=2)
+//	{
+//		printf("%d	",i+1);
+//	}
+//	return 0;
+//}
+
+//switch 常用于多分支语句
+//int main()
+//	{
+//	int day = 0;
+//	scanf("%d", &day);
+//	switch (day)
+//	{
+//	case 1:
+//		printf("星期一"); break;
+//	case 2:
+//		printf("星期二"); break;
+//	}
+//		return 0;
+//	}
+
+//int main()
+//{
+//	//getchar/scanf：输入函数
+//	//由键盘到缓冲区再到函数
+//	char password[20] = { 0 };
+//	printf("请输入密码\n");
+//	scanf("%s", password);//123455\n,scanf只获取123456
+//	printf("请确认密码(Y/N)\n");
+//	//清理缓冲区
+//	//getchar();//处理\n
+//	int tmp = 0;
+//	while ((tmp = getchar()) != '\n')
+//	{
+//		;
+//	}
+//	int ch = getchar();
+//	if (ch == 'Y')
+//	{
+//		printf("确认成功");
+//	}
+//	else
+//	{
+//		printf("确认失败");
+//	}
+//	return 0;
+// }
+
+//int main()
+//{
+//	int ch = 0;
+//	while ((tmp = getchar()) != '\n')
+//	{
+//		if (ch < '0' || ch>'9')
+//		{
+//			continue;
+//			putchar(ch);
+//		}
+//     }
+//	return 0;
+//}
+
+//int main()
+//{
+//	//int i = 1;//初始化
+//	//while (i <= 10)//判断部分
+//	//{
+//	//	printf("%d\n", i);
+//	//	i++;//调整部分
+//	//}
+//	return 0;
+//}
+
+int main()
+{
+	int i = 1;
+	do
+	{
+		printf("%d", i);
+		i++;
+	} while (i <= 10);
+
+	return 0;
+}
