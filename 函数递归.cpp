@@ -151,3 +151,8 @@
 //	return 0;
 //}
 
+int main()
+{
+	printf("abc");
+	return 0;
+}
