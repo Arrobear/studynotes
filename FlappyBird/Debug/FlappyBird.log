@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\stdafx.cpp(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\stdafx.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\targetver.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  FlappyBird.cpp
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\FlappyBird.cpp(50,10): warning C4473: “scanf_s”: 没有为格式字符串传递足够的参数
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\FlappyBird.cpp(50,10): message : 占位符和其参数预计 2 可变参数，但提供的却是 1 参数
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\FlappyBird.cpp(50,10): message : 缺失的可变参数 2 为格式字符串“%c”所需
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\FlappyBird.cpp(50,10): message : 此参数用作缓冲区大小
+C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\FlappyBird\FlappyBird.cpp(217,13): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  FlappyBird.vcxproj -> C:\Users\86184\Desktop\files\Git\cPlusPlus\04_c_FlappyBird_and_2048\FlappyBird_2048\Young Game Project\Debug\FlappyBird.exe
